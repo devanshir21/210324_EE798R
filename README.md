@@ -20,7 +20,7 @@
 
     a. Multimodal CNN: Combines multiple signals (FGSR(Feet-GSR), HGSR(Hand-GSR), HR) using parallel CNNs for better stress detection.  
     b. Continuous Recurrence Plots (Cont-RPs): Nonlinear representation of time-series data that captures complex dynamic patterns in physiological signals.  
-    c Short-Term Signals: Focuses on signals of 10-30 seconds, making it suitable for real-time stress detection.  
+    c. Short-Term Signals: Focuses on signals of 10-30 seconds, making it suitable for real-time stress detection.  
 
 **6. Data Used:**
 
