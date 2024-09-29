@@ -23,7 +23,8 @@
     c Short-Term Signals: Focuses on signals of 10-30 seconds, making it suitable for real-time stress detection.  
 
 **6. Data Used:**
-      The paper uses the SRAD (Stress Recognition in Automobile Drivers) dataset, which includes real-world physiological signals collected from drivers in various stress levels (low, medium, high).
+
+    The paper uses the SRAD (Stress Recognition in Automobile Drivers) dataset, which includes real-world physiological signals collected from drivers in various stress levels (low, medium, high).
 
 **7. Model Architecture:**
 
@@ -31,7 +32,9 @@
     b. These outputs are concatenated and passed through a fully connected layer for binary classification (stressed vs. relaxed).  
 
 **8. Results:**
+
     The model achieved 95.67% accuracy with 30-second signals and 92.33% with 10-second signals, outperforming previous methods that required longer signals.
 
-**9. Why This Approach?:**
+**9. Why This Approach?**
+
     By using multiple physiological signals and nonlinear transformations (Cont-RPs), the model captures more intricate stress-related features, improving the accuracy of real-time stress detection.
