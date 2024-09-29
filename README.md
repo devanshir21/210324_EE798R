@@ -13,13 +13,12 @@ Sensors 2021
  
 **4. Paper Summary:**
 
- a. The paper introduces a method for detecting driving stress using short-term physiological signals (Galvanic Skin Response - GSR, and Heart Rate - HR).
- 
- b. The physiological signals are transformed into 2D continuous recurrence plots (Cont-RPs), which are then processed by a multimodal Convolutional Neural Network (CNN) to classify stress levels.
+ a. The paper introduces a method for detecting driving stress using short-term physiological signals (Galvanic Skin Response - GSR, and Heart Rate - HR)   
+ b. The physiological signals are transformed into 2D continuous recurrence plots (Cont-RPs), which are then processed by a multimodal Convolutional Neural Network (CNN) to classify stress levels.  
 
 **5. Key Contributions:**
 
- a. Multimodal CNN: Combines multiple signals (FGSR, HGSR, HR) using parallel CNNs for better stress detection.
+ a. Multimodal CNN: Combines multiple signals (FGSR(Feet-GSR), HGSR(Hand-GSR), HR) using parallel CNNs for better stress detection.
  
  b. Continuous Recurrence Plots (Cont-RPs): Nonlinear representation of time-series data that captures complex dynamic patterns in physiological signals.
  
